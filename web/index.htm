@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GPS Visualization</title>
+<link rel="stylesheet" href="leaflet/leaflet.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="mapid"></div>
+<div class="sidebar">
+<div class="info">
+<div>
+<strong>GPS Coordinates:</strong>
+<span id="gps-coordinates">0, 0</span>
+</div>
+<div>
+<strong>Altitude:</strong>
+<span id="altitude">0</span>
+</div>
+<div>
+<strong>Speed:</strong>
+<span id="speed">0 km/h</span>
+</div>
+<div>
+<strong>Satellite Count:</strong>
+<span id="satellite-count">0</span>
+</div>
+<div>
+<strong>Device Status:</strong>
+<span id="device-status">Not connected</span>
+</div>
+<div>
+<strong>Last update:</strong>
+<span id="last-update">Not available</span>
+</div>
+</div>
+<label>
+<input type="checkbox" name="display-path" id="display-path" checked>
+Display the whole path
+</label>
+<button id="focus-source">Focus on the source</button>
+<button id="focus-current-location">Focus on the current location</button>
+<button id="force-update">Force update</button>
+</div>
+<script src="chroma/chroma.js"></script>
+<script src="jquery/jquery-3.6.4.js"></script>
+<script src="leaflet/leaflet.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
