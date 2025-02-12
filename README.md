@@ -9,7 +9,7 @@ Libraries used: TFT_eSPI(to display text info), PubSubClient(for MQTT) and TinyG
 The schematics is as follows:
 ![scheme](https://github.com/user-attachments/assets/593167b0-b82f-44f6-8d13-af41319b2e1e)
 The battery is connected to its corresponding connector on the board
-![scheme](https://github.com/user-attachments/assets/7a2f96a0-cf84-4538-9089-ae3bfbb57882)
+<img width="475" alt="ttgobattery" src="https://github.com/user-attachments/assets/e2f036f0-534c-445a-98d6-72c4ec31d1b5" />
 The prototype's housing looks like this
 ![viewfront](https://github.com/user-attachments/assets/7ca74d45-6195-4d4d-b3b9-dfa2c5ed4bee)
 and like this from the inside
